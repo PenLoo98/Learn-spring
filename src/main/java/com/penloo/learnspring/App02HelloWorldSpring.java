@@ -3,6 +3,8 @@ package com.penloo.learnspring;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import java.util.Arrays;
+
 public class App02HelloWorldSpring {
     public static void main(String[] args) {
         // 스프링 컨텍스트 실행하기
@@ -13,9 +15,15 @@ public class App02HelloWorldSpring {
         // name() - @Bean
         System.out.println("bean name: "+context.getBean("name"));
         System.out.println("bean age: "+context.getBean("age"));
-        System.out.println("bean person: "+context.getBean("person"));
-        System.out.println("bean person: "+context.getBean("person2_MethodCall"));
-        System.out.println("bean person: "+context.getBean("person3_Parameters"));
-        System.out.println("bean person: "+context.getBean("address"));
+        System.out.println("bean person1: "+context.getBean("person"));
+        System.out.println("bean person2: "+context.getBean("person2_MethodCall"));
+        System.out.println("bean person3: "+context.getBean("person3_Parameters"));
+        System.out.println("bean person4: "+context.getBean("person4_Primary"));
+        System.out.println("bean person5: "+context.getBean("person5_Qualifier"));
+        System.out.println(context.getBean(Address.class));
+
+        // Spring이 관리하는 bean 객체의 이름을 모두 출력 - 함수형
+//        Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println);
+
     }
 }
