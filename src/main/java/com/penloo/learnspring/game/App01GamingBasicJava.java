@@ -1,4 +1,4 @@
-package com.penloo.learnspring;
+package com.penloo.learnspring.game;
 
 import com.penloo.learnspring.game.GameRunner;
 import com.penloo.learnspring.game.MarioGame;

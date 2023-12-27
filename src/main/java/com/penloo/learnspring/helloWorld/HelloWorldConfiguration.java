@@ -1,4 +1,4 @@
-package com.penloo.learnspring;
+package com.penloo.learnspring.helloWorld;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
