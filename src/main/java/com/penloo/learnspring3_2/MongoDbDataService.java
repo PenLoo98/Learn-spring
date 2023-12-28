@@ -1,4 +1,4 @@
-package com.penloo.learnspring4;
+package com.penloo.learnspring3_2;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;

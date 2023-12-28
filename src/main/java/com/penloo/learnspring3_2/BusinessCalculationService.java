@@ -1,6 +1,5 @@
-package com.penloo.learnspring4;
+package com.penloo.learnspring3_2;
 
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 import java.util.Arrays;

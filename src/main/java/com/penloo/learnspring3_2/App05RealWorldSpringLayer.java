@@ -1,4 +1,4 @@
-package com.penloo.learnspring4;
+package com.penloo.learnspring3_2;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
